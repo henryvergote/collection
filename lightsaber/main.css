@@ -1,0 +1,123 @@
+:root {
+    --glow: rgb(30, 255, 0);
+    --bg: rgb(3, 3, 35);
+}
+
+* {
+    padding: O;
+    margin: 0;
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg);
+    height: 100vh;
+    border: 10px;
+    border: 10px solid rgb(255, 232, 31);
+}
+
+.content {
+    width: 80%;
+    height: 20px;
+    display: flex;
+}
+
+.light {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    animation-name: shadowAan;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    box-shadow: 0 0 2.5em 0.75em var(--glow), inset 0 0 0.5em 0.25em var(--glow);
+}
+
+.light:hover {
+    animation-name: shadowUit;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    box-shadow: 0 0 2.5em 0.75em var(--bg), inset 0 0 0.25em 0.25em var(--bg);
+    background-color: var(--bg);
+}
+
+
+@keyframes shadowAan {
+    0% {
+        box-shadow: 0 0 2.5em 0.75em var(--bg), inset 0 0 0.25em 0.25em var(--bg);
+        background-color: var(--bg);
+    }
+    100% {
+        box-shadow: 0 0 2.5em 0.75em var(--glow), inset 0 0 0.5em 0.25em var(--glow);
+        background-color: white;
+    }
+}
+
+@keyframes shadowUit {
+    0% {
+        box-shadow: 0 0 2.5em 0.75em var(--glow), inset 0 0 0.5em 0.25em var(--glow);
+        background-color: white;
+    }
+    100% {
+        box-shadow: 0 0 2.5em 0.75em var(--bg), inset 0 0 0.25em 0.25em var(--bg);
+        background-color: var(--bg);
+    }
+}
+
+
+.handle {
+    background-color: rgb(194, 194, 194);
+    height: 100%;
+    width: 120px;
+    display: flex;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.band {
+    background-color: black;
+    height: 100%;
+    width: 5px;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+.grip {
+    display: flex;
+    margin-left: 5px;
+}
+
+.streep {
+    background-color: black;
+    height: 100%;
+    width: 4px;
+    margin-left: 3px;
+}
+
+.btnplate {
+    background-color: rgb(139, 139, 139);
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: rgb(214, 8, 8);
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.stop {
+    background-color: rgb(216, 202, 0);
+    height: 100%;
+    width: 5px;
+    margin-left: 10px;
+}

@@ -1,0 +1,33 @@
+body {
+    background-color: #000;
+}
+
+
+
+#div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 15rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#hexcode {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: white;
+    padding: 15px;
+    border-radius: 30px;
+}

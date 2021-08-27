@@ -1,0 +1,196 @@
+body {
+    background-color: rgb(49, 49, 49);
+}
+
+main {
+    padding: 75px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 150px 150px 20px 150px 150px ;
+    grid-template-rows: 250px;
+    grid-gap: 10px;
+    place-items: center;
+    border: 10px solid rgb(80, 80, 80);
+    border-radius: 5px;
+}
+
+.segment {
+    display: grid;
+    grid-template-columns: 10px 40px 40px 10px;
+    grid-template-rows: 10px 85px 10px 85px 10px ;
+    grid-gap: 10px;
+/*     place-items: center; */
+}
+
+.streep, .punt {
+    border-radius: 5px;
+}
+
+.punt {
+    animation-name: color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color {
+    0% {
+      background-color: rgb(49, 49, 49);
+    }
+    50% {
+      background-color: rgb(255, 255, 255);
+    }
+    100% {
+        background-color: rgb(49, 49, 49);
+      }
+  }
+
+.dubbelpunt {
+    display: grid;
+    grid-template-columns: 10px;
+    grid-template-rows: 10px 80px 10px;
+}
+
+
+.streep:nth-child(1) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 1;
+}
+.streep:nth-child(2) {
+    grid-column: 1;
+    grid-row: 2;
+}
+.streep:nth-child(3) {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+.streep:nth-child(4) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 3;
+}
+
+.streep:nth-child(5) {
+    grid-column: 1;
+    grid-row: 4;
+}
+.streep:nth-child(6) {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+.streep:nth-child(7) {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 5;
+}
+
+.punt:nth-child(1) {
+    grid-row: 1;
+}
+
+.punt:nth-child(2) {
+    grid-row: 3;
+}
+
+/*UUR 1*/
+#uur11 {
+    background-color: rgb(255, 255, 255);
+}
+#uur12 {
+    background-color: rgb(255, 255, 255);
+}
+#uur13 {
+    background-color: rgb(255, 255, 255);
+}
+#uur14 {
+    background-color: rgb(255, 255, 255);
+}
+#uur15 {
+    background-color: rgb(255, 255, 255);
+}
+#uur16 {
+    background-color: rgb(255, 255, 255);
+}
+#uur17 {
+    background-color: rgb(255, 255, 255);
+}
+
+/*UUR 2*/
+#uur21 {
+    background-color: rgb(255, 255, 255);
+}
+#uur22 {
+    background-color: rgb(255, 255, 255);
+}
+#uur23 {
+    background-color: rgb(255, 255, 255);
+}
+#uur24 {
+    background-color: rgb(255, 255, 255);
+}
+#uur25 {
+    background-color: rgb(255, 255, 255);
+}
+#uur26 {
+    background-color: rgb(255, 255, 255);
+}
+#uur27 {
+    background-color: rgb(255, 255, 255);
+}
+
+/*MIN 1*/
+#min11 {
+    background-color: rgb(255, 255, 255);
+}
+#min12 {
+    background-color: rgb(255, 255, 255);
+}
+#min13 {
+    background-color: rgb(255, 255, 255);
+}
+#min14 {
+    background-color: rgb(255, 255, 255);
+}
+#min15 {
+    background-color: rgb(255, 255, 255);
+}
+#min16 {
+    background-color: rgb(255, 255, 255);
+}
+#min17 {
+    background-color: rgb(255, 255, 255);
+}
+
+/*MIN 2*/
+#min21 {
+    background-color: rgb(255, 255, 255);
+}
+#min22 {
+    background-color: rgb(255, 255, 255);
+}
+#min23 {
+    background-color: rgb(255, 255, 255);
+}
+#min24 {
+    background-color: rgb(255, 255, 255);
+}
+#min25 {
+    background-color: rgb(255, 255, 255);
+}
+#min26 {
+    background-color: rgb(255, 255, 255);
+}
+#min27 {
+    background-color: rgb(255, 255, 255);
+}
