@@ -1,5 +1,13 @@
+@import url(/footer.css);
+
 body {
     background-color: rgb(49, 49, 49);
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 /* update dit hier verdorie */

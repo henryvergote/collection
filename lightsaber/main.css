@@ -1,6 +1,20 @@
+@import url(/footer.css);
+
 :root {
     --glow: rgb(30, 255, 0);
     --bg: rgb(3, 3, 35);
+}
+
+footer {
+    margin-bottom: 2px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--bg);
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 * {
@@ -16,7 +30,7 @@
     background-color: var(--bg);
     height: 100vh;
     border: 10px;
-    border: 10px solid rgb(255, 232, 31);
+    border: 20px solid rgb(255, 232, 31);
 }
 
 .content {

@@ -1,14 +1,17 @@
+@import url(/footer.css);
+
 body {
     background-color: #000;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-
-
-/* #div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
 
 button {
     position: absolute;
