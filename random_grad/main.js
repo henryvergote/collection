@@ -15,6 +15,8 @@ function changeColor() {
     document.getElementById("body").style.background = `linear-gradient(90deg, ${grad1}, ${grad2})`;
     document.getElementById("hexcode1").innerHTML = `${grad1}`;
     document.getElementById("hexcode2").innerHTML = `${grad2}`;
+    document.getElementById("links").style.background = grad1;
+    document.getElementById("rechts").style.background = grad2;
     localStorage.setItem("grad1", grad1);
     localStorage.setItem("grad2", grad2);
 }

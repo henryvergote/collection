@@ -36,6 +36,25 @@ button:hover {
     cursor: pointer;
 }
 
+#links {
+    position: absolute;
+    top: 1em;
+    left: 50%;
+    transform: translate(-100%);
+    width: 5em;
+    aspect-ratio: 1 / 1;
+    background-color: white;
+}
+
+#rechts {
+    position: absolute;
+    top: 1em;
+    left: 50%;
+    width: 5em;
+    aspect-ratio: 1 / 1;
+    background-color: black;
+}
+
 #hexcode1 {
     position: absolute;
     top: 2rem;
